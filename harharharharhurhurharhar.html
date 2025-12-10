@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loader</title>
+  <style>
+    body { 
+      background:#111; 
+      color:white; 
+      font-family:Arial; 
+      display:flex; 
+      justify-content:center; 
+      align-items:center; 
+      height:100vh;
+    }
+    button {
+      font-size:20px;
+      padding:15px 30px;
+      cursor:pointer;
+    }
+  </style>
+</head>
+<body>
+
+<button id="openBtn">Open WannaSmile in about:blank</button>
+
+<script>
+document.getElementById("openBtn").onclick = async () => {
+
+  const cdnRoot = "https://cdn.jsdelivr.net/gh/wanna5mile/wanna5mile.github.io@main/";
+
+  // 1. Fetch main page
+  let html = await fetch(cdnRoot + "index.html").then(r => r.text());
+
+  // 2. Rewrite all asset URLs to absolute CDN paths
+  html = html.replace(/(src|href)="(?!https?:\/\/)([^"]+)"/g,
+    (match, attr, path) => `${attr}="${cdnRoot}${path}"`);
+
+  // 3. Inject link-interceptor script
+  const interceptorScript = `
+<script>
+(function() {
+    function openInBlankEmbed(url) {
+        const newTab = window.open("about:blank");
+        newTab.document.write(\`
+            <html>
+            <body style="margin:0; overflow:hidden;">
+                <embed src="\${url}"
+                       style="position:absolute;top:0;left:0;width:100vw;height:100vh;border:none;">
+            </body>
+            </html>
+        \`);
+        newTab.document.close();
+    }
+
+    document.addEventListener("click", e => {
+        let a = e.target.closest("a");
+        if (!a) return;
+
+        let url = a.href;
+        if (!url) return;
+
+        // prevent normal navigation
+        e.preventDefault();
+
+        // open rewritten link in embed window
+        openInBlankEmbed(url);
+    });
+
+    // also catch programmatic window.open from inside the site
+    window.open = (url) => {
+        openInBlankEmbed(url);
+        return null;
+    };
+})();
+<\/script>
+`;
+
+  // 4. Insert the interceptor before </body>
+  html = html.replace("</body>", interceptorScript + "</body>");
+
+  // 5. Open blank window and write final HTML
+  const win = window.open("about:blank");
+  win.document.open();
+  win.document.write(html);
+  win.document.close();
+};
+</script>
+
+</body>
+</html>

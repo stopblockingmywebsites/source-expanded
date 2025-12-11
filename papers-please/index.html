@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 
@@ -16,23 +17,38 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css" type="text/css" />
 
     <style>
+        /* Ensure the page takes full viewport and body is a positioning context */
         html, body {
             margin: 0;
             padding: 0;
-            width: 100vw;
-            height: 100vh;
+            height: 100%;
+            width: 100%;
             overflow: hidden;
         }
+        body {
+            position: relative; /* anchor for absolute children */
+        }
 
+        /* Strongly target the object/embed by id to avoid external CSS interference */
+        #gameObject,
+        #gameObject embed,
+        #gameObject > embed {
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            max-width: 100vw !important;
+            max-height: 100vh !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            border: 0 !important;
+            display: block !important;
+        }
+
+        /* For good measure, make generic object/embed fallback safe */
         object, embed {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            margin: 0;
-            padding: 0;
-            border: 0;
+            display: block;
         }
     </style>
 
@@ -41,9 +57,9 @@
 
 <script src="https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js"></script>
 
-<object>
+<object id="gameObject" type="application/x-shockwave-flash" data="https://cdn.jsdelivr.net/gh/gn-math/assets/187/187.swf" width="100%" height="100%">
     <param name="movie" value="https://cdn.jsdelivr.net/gh/gn-math/assets/187/187.swf">
-    <embed src="https://cdn.jsdelivr.net/gh/gn-math/assets/187/187.swf">
+    <embed src="https://cdn.jsdelivr.net/gh/gn-math/assets/187/187.swf" type="application/x-shockwave-flash" width="100%" height="100%"></embed>
 </object>
 
 </body>

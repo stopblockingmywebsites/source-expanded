@@ -1,40 +1,22 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Tetris</title>
-
-  <!-- Ruffle -->
+<html>
+  <head>
+    <title>Tetris</title>
   <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      width: 100vw;
-      height: 100vh;
-      overflow: hidden;
-      background: black;
-    }
-
-    #game {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-    }
-
-    ruffle-player {
-      width: 100%;
-      height: 100%;
-    }
-  </style>
-</head>
-
-<body>
-  <div id="game">
-    <ruffle-player src="https://cdn.jsdelivr.net/gh/Games-From-Flash/swf/Tetris.swf"></ruffle-player>
-  </div>
-</body>
-</html>
+  <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico"/>
+	    <link href="https://fonts.googleapis.com/css2?family=Amaranth&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    </head>
+  <body>
+		<header>
+			<img class="logo" src="img/logo2.png" alt="logo">
+      <nav>
+          <ul class="nav__links">
+						<button style="margin-right: 20px;" onclick="window.location.href='index.html'";">Home</button>
+            <button onclick="window.location.href='info.html'";>Information</button>
+          </nav>
+						</header>
+		<center>
+    	<embed src="https://cdn.jsdelivr.net/gh/Games-From-Flash/swf/Tetris.swf"></embed>
+		</center>
+  </body>

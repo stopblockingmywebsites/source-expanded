@@ -1,33 +1,42 @@
 <!doctype html>
-<html>
-  <head>
-    <title>Tetris</title>
-    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-    <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico"/>
-    <link href="https://fonts.googleapis.com/css2?family=Amaranth&display=swap" rel="stylesheet">
-    <style>
-      html, body {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-      }
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tetris</title>
 
-      .game-container {
-        width: 100vw;
-        height: 100vh;
-      }
-      .game-container embed {
-        width: 100%;
-        height: 100%;
-        border: none;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="game-container">
-      <embed src="https://cdn.jsdelivr.net/gh/Games-From-Flash/swf/Tetris.swf">
-    </div>
-  </body>
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: black;
+    }
+
+    #game {
+      width: 100vw;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="game"></div>
+
+  <script>
+    const ruffle = window.RufflePlayer.newest();
+    const player = ruffle.createPlayer();
+
+    player.style.width = "100%";
+    player.style.height = "100%";
+
+    document.getElementById("game").appendChild(player);
+
+    player.load("https://cdn.jsdelivr.net/gh/Games-From-Flash/swf/Tetris.swf");
+  </script>
+
+</body>
 </html>

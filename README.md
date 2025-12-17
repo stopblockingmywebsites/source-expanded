@@ -1,171 +1,174 @@
 ![readme banner](banner.png "rhapsodys source expanded for wanna5mile")
+![readme banner](banner.png "rhapsodys source expanded for wanna5mile")
+
 # Featuring:
-* 10-Minutes-Till-Dawn
-* 12-Mini-Battles
-* A-Small-World-Cup
-* A.G.O.T.I
-* Adventure-Capatalist
-* Alien-Hominid
-* Amanda-the-Adventurer
-* Angry-Birds-Chrome
-* Angry-Birds-Showdown
-* Angry-Birds
-* Arthurs-Nightmare
-* BLOODMONEY
-* Bad-Monday-Simulator
-* Baseball-Bros
-* Basket-Battle
-* Block-Blast
-* Blocky-Snakes
-* BuildNow-gg
-* Burrito-Bison
-* CircloO-2
-* CircloO
-* DOOM-3
-* DOOM
-* Dadish-3D
-* Daily-Dadish
-* Driven-Wild
-* FNF-Vs-Hypnos-Lullaby-v2
-* Final-Earth-2
-* Half-Life
-* Highway-Racer-2-REMASTERED
-* Highway-Racer-2
-* Journey-Downhill
-* Line-Rider
-* Look-Outside
-* Magic-Tiles-3
-* Metal-Gear-Solid
-* Milk-Inside-a-Bag-of-Milk-Inside-a-Bag-of-Milk
-* Milk-Outside-A-Bag-Of-Milk-Outside-A-Bag-Of-Milk
-* Mindwave
-* Nijikas-Ahoge
-* Oshi-Oshi-Punch
-* OvO-2
-* OvO-3-Dimensions
-* Pac-Man-Horror
-* Pac-Man-Superfast
-* Pac-Man-World-2
-* Pac-Man-World
-* Pou
-* RigBMX
-* RigBMX2
-* Road-of-Fury
-* Slime-Rancher
-* Sonic-CD
-* Sonic-EXE
-* Sonic-Mania
-* Superhot
-* Supreme-Duelist
-* T-H-O-T-H
-* TAG
-* Tattletail
-* Tiny-Fishing
-* Toss-The-Turtle
-* Tube-Jumpers
-* Vex-3-XMAS
-* Vex-Challenges
-* Vex-X3M-2
-* Vex-X3M
-* WebFishing
-* World-Box
-* a-bite-at-freddys
-* andys-apple-farm
-* baldi-plus
-* baldi-remastered
-* big-flappy-tower-tiny-square
-* big-ice-tower-tiny-square
-* big-neon-tower-tiny-square
-* big-tower-tiny-square
-* big-tower-tiny-square2
-* bit-planes
-* blackjack
-* cave-story
-* celeste
-* city-smash
-* classic-chess
-* cut-the-rope-time-travel
-* dead-plate
-* deltatraveler
-* doom2
-* dreadhead-parkour
-* endoparasitic
-* endroll
-* escape-road-2
-* escape-road
-* fnac
-* fnac2
-* fnf-vs-bob-v2
-* fnf-vs-bopcity
-* fnf-vs-creepypasta
-* fnf-vs-drop-n-roll-but-playable
-* fnf-vs-hypnos-lullaby
-* fnf-vs-kapi
-* fnf-vs-marios-madness
-* fnf-vs-sky
-* fnf-vs-sunday-night-suicide_rookies-edition
-* fnf-vs-wednesdays-infidelity
-* generic-fighter-maybe
-* gladihoppers
-* gods-flesh
-* granny
-* granny2
-* granny3
-* groon-groon-babey
-* growden
-* highway-racer
-* iwuntya
-* karlson
-* kindergarten2
-* kindergarten3
-* kitchen-bazar
-* kitty-toy
-* madness-combat-project-nexus
-* majoras-mask
-* melon-playground
-* minecraft
-* minesweeper-mania
-* minesweeper-plus
-* monster-tracks
-* newgrounds-rumble
-* nz-zombies-port
-* off
-* oneshot-legacy
-* original-sonic-exe
-* osu
-* papers-please
-* parappa-the-rapper
-* pixel-run-2
-* pixel-run-3
-* pixel-run-4
-* pixel-run-5
-* pixel-run
-* pizza-tower-scoutdigo
-* protektor
-* pvz
-* pvz2-gardenless
-* quake-3-arena
-* recoil
-* retrobowl-college
-* rocket-soccer-derby
-* solitaire
-* sonic-the-hedgehog-2-communitys-cut
-* sonic-the-hedgehog-3-angel-island-remastered
-* space-funeral
-* steal-a-brainrot-online
-* super-mario-bros
-* tetris
-* thats-not-my-neighbor
-* the-deadseat
-* the-final-earth-2
-* the-man-from-the-window
-* they-are-coming
-* three-goblets
-* touhou-mother
-* unlikely
-* wrath-of-the-lamb
-* yandere-simulator
+
+* 10-Minutes-Till-Dawn `WORKING`
+* 12-Mini-Battles `WORKING`
+* A-Small-World-Cup `WORKING`
+* A.G.O.T.I `WORKING`
+* Adventure-Capatalist `WORKING`
+* Alien-Hominid `WORKING`
+* Amanda-the-Adventurer `WORKING`
+* Angry-Birds-Chrome `WORKING`
+* Angry-Birds-Showdown `WORKING`
+* Angry-Birds `WORKING`
+* Arthurs-Nightmare `WORKING`
+* BLOODMONEY `WORKING`
+* Bad-Monday-Simulator `WORKING`
+* Baseball-Bros `WORKING`
+* Basket-Battle `WORKING`
+* Block-Blast `WORKING`
+* Blocky-Snakes `WORKING`
+* BuildNow-gg `WORKING`
+* Burrito-Bison `WORKING`
+* CircloO-2 `WORKING`
+* CircloO `WORKING`
+* DOOM-3 `WORKING`
+* DOOM `WORKING`
+* Dadish-3D `WORKING`
+* Daily-Dadish `WORKING`
+* Driven-Wild `WORKING`
+* FNF-Vs-Hypnos-Lullaby-v2 `WORKING`
+* Final-Earth-2 `WORKING`
+* Half-Life `WORKING`
+* Highway-Racer-2-REMASTERED `WORKING`
+* Highway-Racer-2 `WORKING`
+* Journey-Downhill `WORKING`
+* Line-Rider `WORKING`
+* Look-Outside `WORKING`
+* Magic-Tiles-3 `WORKING`
+* Metal-Gear-Solid `WORKING`
+* Milk-Inside-a-Bag-of-Milk-Inside-a-Bag-of-Milk `WORKING`
+* Milk-Outside-A-Bag-Of-Milk-Outside-A-Bag-Of-Milk `WORKING`
+* Mindwave `WORKING`
+* Nijikas-Ahoge `WORKING`
+* Oshi-Oshi-Punch `WORKING`
+* OvO-2 `WORKING`
+* OvO-3-Dimensions `WORKING`
+* Pac-Man-Horror `WORKING`
+* Pac-Man-Superfast `WORKING`
+* Pac-Man-World-2 `WORKING`
+* Pac-Man-World `WORKING`
+* Pou `WORKING`
+* RigBMX `WORKING`
+* RigBMX2 `WORKING`
+* Road-of-Fury `WORKING`
+* Slime-Rancher `WORKING`
+* Sonic-CD `WORKING`
+* Sonic-EXE `WORKING`
+* Sonic-Mania `WORKING`
+* Superhot `WORKING`
+* Supreme-Duelist `WORKING`
+* T-H-O-T-H `WORKING`
+* TAG `WORKING`
+* Tattletail `WORKING`
+* Tiny-Fishing `WORKING`
+* Toss-The-Turtle `WORKING`
+* Tube-Jumpers `WORKING`
+* Vex-3-XMAS `WORKING`
+* Vex-Challenges `WORKING`
+* Vex-X3M-2 `WORKING`
+* Vex-X3M `WORKING`
+* WebFishing `WORKING`
+* World-Box `WORKING`
+* a-bite-at-freddys `WORKING`
+* andys-apple-farm `WORKING`
+* baldi-plus `WORKING`
+* baldi-remastered `WORKING`
+* big-flappy-tower-tiny-square `WORKING`
+* big-ice-tower-tiny-square `WORKING`
+* big-neon-tower-tiny-square `WORKING`
+* big-tower-tiny-square `WORKING`
+* big-tower-tiny-square2 `WORKING`
+* bit-planes `WORKING`
+* blackjack `WORKING`
+* cave-story `WORKING`
+* celeste `WORKING`
+* city-smash `WORKING`
+* classic-chess `WORKING`
+* cut-the-rope-time-travel `WORKING`
+* dead-plate `WORKING`
+* deltatraveler `WORKING`
+* doom2 `WORKING`
+* dreadhead-parkour `WORKING`
+* endoparasitic `WORKING`
+* endroll `WORKING`
+* escape-road-2 `WORKING`
+* escape-road `WORKING`
+* fnac `WORKING`
+* fnac2 `WORKING`
+* fnf-vs-bob-v2 `WORKING`
+* fnf-vs-bopcity `WORKING`
+* fnf-vs-creepypasta `WORKING`
+* fnf-vs-drop-n-roll-but-playable `WORKING`
+* fnf-vs-hypnos-lullaby `WORKING`
+* fnf-vs-kapi `WORKING`
+* fnf-vs-marios-madness `WORKING`
+* fnf-vs-sky `WORKING`
+* fnf-vs-sunday-night-suicide_rookies-edition `WORKING`
+* fnf-vs-wednesdays-infidelity `WORKING`
+* generic-fighter-maybe `WORKING`
+* gladihoppers `WORKING`
+* gods-flesh `WORKING`
+* granny `WORKING`
+* granny2 `WORKING`
+* granny3 `WORKING`
+* groon-groon-babey `WORKING`
+* growden `WORKING`
+* highway-racer `WORKING`
+* iwuntya `WORKING`
+* karlson `WORKING`
+* kindergarten2 `WORKING`
+* kindergarten3 `WORKING`
+* kitchen-bazar `WORKING`
+* kitty-toy `WORKING`
+* madness-combat-project-nexus `WORKING`
+* majoras-mask `WORKING`
+* melon-playground `WORKING`
+* minecraft `WORKING`
+* minesweeper-mania `WORKING`
+* minesweeper-plus `WORKING`
+* monster-tracks `WORKING`
+* newgrounds-rumble `WORKING`
+* nz-zombies-port `WORKING`
+* off `WORKING`
+* oneshot-legacy `WORKING`
+* original-sonic-exe `WORKING`
+* osu `WORKING`
+* papers-please `WORKING`
+* parappa-the-rapper `WORKING`
+* pixel-run-2 `WORKING`
+* pixel-run-3 `WORKING`
+* pixel-run-4 `WORKING`
+* pixel-run-5 `WORKING`
+* pixel-run `WORKING`
+* pizza-tower-scoutdigo `WORKING`
+* protektor `WORKING`
+* pvz `WORKING`
+* pvz2-gardenless `WORKING`
+* quake-3-arena `WORKING`
+* recoil `WORKING`
+* retrobowl-college `WORKING`
+* rocket-soccer-derby `WORKING`
+* solitaire `WORKING`
+* sonic-the-hedgehog-2-communitys-cut `WORKING`
+* sonic-the-hedgehog-3-angel-island-remastered `WORKING`
+* space-funeral `WORKING`
+* steal-a-brainrot-online `WORKING`
+* super-mario-bros `WORKING`
+* tetris `WORKING`
+* thats-not-my-neighbor `WORKING`
+* the-deadseat `WORKING`
+* the-final-earth-2 `WORKING`
+* the-man-from-the-window `WORKING`
+* they-are-coming `WORKING`
+* three-goblets `WORKING`
+* touhou-mother `WORKING`
+* unlikely `WORKING`
+* wrath-of-the-lamb `WORKING`
+* yandere-simulator `WORKING`
 
 ---
 
-*Last updated Dec 17th 2025 by **rhap5ody***
+*Last updated Dec 17th 2025 by **Rhap5ody***
